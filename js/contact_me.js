@@ -1,5 +1,4 @@
 $(function() {
-
     $("input,textarea").jqBootstrapValidation({
         preventSubmit: true,
         submitError: function($form, event, errors) {
@@ -18,8 +17,9 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "http://getsimpleform.com/messages/ajax?form_api_token={{ site.simpleform_token }}",
                 type: "POST",
+                dataType: 'jsonp',
                 data: {
                     name: name,
                     phone: phone,

@@ -5,6 +5,7 @@ baseurl: /house_for_rent/
 title: Amazing Home Seeks Family
 email: hello@kanawhadesignstudio.com
 description: "Awesome 5br, 2 bath home for rent in the Ballad/Fremont neighborhood of Seattle.  Rent is $4000/month with a 1 year lease and $2000 deposit."
+simpleform_token: 51d878151262f9c5186ffed4fc2dd7ce
 
 # Postal address (add as many lines as necessary)
 address:
