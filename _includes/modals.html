@@ -16,6 +16,9 @@
                             <p>{{ post.description }}</p>
                             {% for img in post.images %}
                               <img src="img/photos/{{ img }}" class="img-responsive img-centered">
+                              <div class="photos-caption">
+                                  <p class="text-muted">{{ img }}</p>
+                              </div>
                             {% endfor %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
