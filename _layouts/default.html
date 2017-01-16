@@ -11,4 +11,12 @@
     {% include modals.html %}
     {% include js.html %}
   </body>
+  <script src="js/echo.js"></script>
+  <script>
+    echo.init({
+      offset: 100,
+      throttle: 250,
+      unload: false,
+    });
+  </script>
 </html>
