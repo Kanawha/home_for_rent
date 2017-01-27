@@ -1,5 +1,8 @@
 url: https://kanawha.github.io
 baseurl: /home_for_rent/
+permalink:    pretty
+port:         8000
+
 
 # Site settings
 title: Amazing Home Seeks Family
